@@ -4,9 +4,9 @@ namespace BringTheMenu.MVVM.View;
 
 public partial class BrowseMenu : ContentPage
 {
-	public BrowseMenu(BrowseMenu_ViewModel data)
+	public BrowseMenu()
 	{
 		InitializeComponent();
-		BindingContext = data;
+	
 	}
 }

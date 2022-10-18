@@ -4,20 +4,21 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:BringTheMenu"
-    xmlns:TabOption="clr-namespace:BringTheMenu.MVVM.ViewModel.Tabs"
+    xmlns:TabOption="clr-namespace:BringTheMenu.MVVM.View"
+    xmlns:TabOption1="clr-namespace:BringTheMenu.MVVM.View.Tabs"
     Shell.FlyoutBehavior="Disabled">
 
     <!--Tab bar Option-->
     <TabBar x:Name="TheTabs">
         
         <Tab Title="Menu">
-            <ShellContent ContentTemplate="{DataTemplate TabOption:Menu_Button_ViewModel}"/>
+            <ShellContent ContentTemplate="{DataTemplate TabOption:Menu_Button}"/>
         </Tab>
         <Tab Title="Browse">
-            <ShellContent ContentTemplate="{DataTemplate TabOption:BrowseMenu_ViewModel}"/>
+            <ShellContent ContentTemplate="{DataTemplate TabOption:BrowseMenu}"/>
         </Tab>
         <Tab Title="Account">
-            <ShellContent ContentTemplate="{DataTemplate TabOption:Account_ViewModel}"/>
+            <ShellContent ContentTemplate="{DataTemplate TabOption1:Account}"/>
         </Tab>
         
     </TabBar>
