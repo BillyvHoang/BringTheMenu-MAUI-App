@@ -2,14 +2,49 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BringTheMenu.MVVM.View.Menu_Button"
+             Shell.NavBarIsVisible="false"
+             BackgroundColor="SteelBlue"
              Title="Menu_Button">
     
     
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center"/>
+        <!--Display Text-->
+        <VerticalStackLayout>
+
+            <Label Text="Tap for Menu" FontSize="20"
+                   HorizontalOptions="Center" Margin="0,130"/>
+        </VerticalStackLayout>
+        
+        <!--FindMenuButton-->
+        <VerticalStackLayout>
+            <Frame 
+                BackgroundColor="LightGrey"
+                HorizontalOptions="Center" Margin="0,-100"
+                WidthRequest="250" HeightRequest="250" CornerRadius="150">
+                <Frame
+                    BackgroundColor="White"
+                    WidthRequest="200" HeightRequest="200" CornerRadius="150">
+
+                </Frame>
+                
+            </Frame>
+            <Button x:Name="Find_Menu_Button"
+                Margin="0,-150"
+                BackgroundColor="Transparent"
+                WidthRequest="250" HeightRequest="250" CornerRadius="150">
+                
+            </Button>
+        </VerticalStackLayout>
+
+
+        <HorizontalStackLayout>
+            <Frame
+                BackgroundColor="White"
+                Margin="300,150"
+                WidthRequest="80" HeightRequest="150" CornerRadius="0">
+
+            </Frame>
+        </HorizontalStackLayout>
     </VerticalStackLayout>
     
     
