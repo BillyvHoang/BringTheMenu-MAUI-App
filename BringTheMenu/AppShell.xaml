@@ -6,8 +6,9 @@
     xmlns:local="clr-namespace:BringTheMenu"
     xmlns:TabOption="clr-namespace:BringTheMenu.MVVM.View"
     xmlns:TabOption1="clr-namespace:BringTheMenu.MVVM.View.Tabs"
+    
     Shell.FlyoutBehavior="Disabled">
-
+    
     <!--Tab bar Option-->
     <TabBar x:Name="TheTabs">
         
@@ -21,13 +22,16 @@
             <ShellContent ContentTemplate="{DataTemplate TabOption1:Account}"/>
         </Tab>
         
+        
+        
+        
+        
     </TabBar>
     <!--Tab bar Option-->
+
     
-    
-    
-    
-    
+
+
 
 
 </Shell>

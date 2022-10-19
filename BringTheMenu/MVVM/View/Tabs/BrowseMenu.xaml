@@ -2,11 +2,43 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BringTheMenu.MVVM.View.BrowseMenu"
+             BackgroundColor="SteelBlue"
+             Shell.NavBarIsVisible="False"
              Title="BrowseMenu">
+
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+
+        <VerticalStackLayout>
+            <Label Text="Let's find" FontSize="30"
+                   HorizontalOptions="Start" Margin="20,50"/>
+            <Label Text="Some Food." FontSize="35"
+               HorizontalOptions="Start" Margin="20,-50"/>
+        </VerticalStackLayout>
+
+
+
+        <VerticalStackLayout>
+            <Frame
+            BackgroundColor="Grey"
+            HorizontalOptions="Center" Margin="0,100"
+            WidthRequest="350" HeightRequest="60" CornerRadius="10">
+                <SearchBar
+                   
+                HorizontalOptions="CenterAndExpand"
+                WidthRequest="250">
+                
+                </SearchBar>
+            
+            </Frame>
+        </VerticalStackLayout>
+
+
+
+
     </VerticalStackLayout>
+
+
+    
+    
+    
 </ContentPage>

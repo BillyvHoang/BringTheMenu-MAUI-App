@@ -8,6 +8,7 @@
     
     
     <VerticalStackLayout>
+        
         <!--Display Text-->
         <VerticalStackLayout>
 
