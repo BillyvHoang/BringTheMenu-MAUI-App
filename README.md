@@ -3,11 +3,10 @@ pull up the menu based on your location!
 A Project based using .NET MAUI using S10+ as an emulator
 
 
-Funny Story About application.
+Funny Story About this application.
 
-I have mulitple repository with different functioning of this application. 
-Multiple repository using .NET MAUI XAML. Some with MVVM implementation, demo , and cleaned up version.
-Some are deleted and some I still have.
+I have mulitple repository of this, some private and some deleted with different functioning of this application. 
+Having multiple repository using .NET MAUI XAML. Some with MVVM implementation, demo , and cleaned up version.
 I do also have 1 previous repository as NET MAUI Blazor since
 HTML&CSS is more workable than XAML. 
 
