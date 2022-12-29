@@ -10,6 +10,8 @@ Having multiple repository using .NET MAUI XAML. Some with MVVM implementation, 
 I do also have 1 previous repository as NET MAUI Blazor since
 HTML&CSS is more workable than XAML. 
 
+You will not be able to find the source code for the login userface and sign up. It is in a private repository (BringTheMenuCleaned).
+
 
 ![BTM](https://user-images.githubusercontent.com/106621740/210016810-cd667e2f-7e33-495a-8315-8cc3f74b4857.PNG)
 ![Register1](https://user-images.githubusercontent.com/106621740/210016816-a3540ddd-e078-498c-abad-60fb8c068a2d.PNG)
