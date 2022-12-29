@@ -8,7 +8,7 @@ Funny Story About application.
 I have mulitple repository with different functioning of this application. 
 Multiple repository using .NET MAUI XAML. Some with MVVM implementation, demo , and cleaned up version.
 Some are deleted and some I still have.
-I do have 1 previous repository since I was deciding to possibly just switch over to .NET MAUI Blazor since
+I do also have 1 previous repository as NET MAUI Blazor since
 HTML&CSS is more workable than XAML. 
 
 
