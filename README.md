@@ -3,15 +3,6 @@ pull up the menu based on your location!
 A Project based using .NET MAUI using S10+ as an emulator
 
 
-Funny Story About this application.
-
-I have mulitple repository of this, some private and some deleted with different functioning of this application. 
-Having multiple repository using .NET MAUI XAML. Some with MVVM implementation, demo , and cleaned up version.
-I do also have 1 previous repository as NET MAUI Blazor since
-HTML&CSS is more workable than XAML. 
-
-You will not be able to find the source code for the login userface and sign up. It is in a private repository (BringTheMenuCleaned).
-
 
 ![BTM](https://user-images.githubusercontent.com/106621740/210016810-cd667e2f-7e33-495a-8315-8cc3f74b4857.PNG)
 ![Register1](https://user-images.githubusercontent.com/106621740/210016816-a3540ddd-e078-498c-abad-60fb8c068a2d.PNG)
